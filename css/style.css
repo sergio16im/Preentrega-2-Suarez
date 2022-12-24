@@ -1,0 +1,91 @@
+
+/* Estilos para header */
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+.logo{
+    position: absolute;
+  width: 20px;
+  fill: rgb(0, 81, 255);
+}
+header{
+   
+    background-color: #00412b;
+}
+/* Estilos para main */
+.carousel-item img{
+height: 80vh;
+width: 50vw;
+}
+
+.card-img-top{
+height:18rem
+}
+
+footer{
+    background-color: rgb(107, 206, 8);  
+     
+}
+.nav-link{
+    transition:all 0.3s ease;
+}
+/* Estilos para footer */
+.redes__sociales{
+    padding-top: 0.2rem;
+    height: 30px;
+    width:30px;
+    transition:all 0.3s ease;
+      
+}
+
+/* Breakpoints para media */
+
+
+/* Transiciones y animaciones */
+    .card{
+        transition:all 0.3s ease;      
+    }
+.card:hover
+{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+z-index:100;
+-webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+
+.redes__sociales:hover
+{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+z-index:100;
+}
+
+.nav-link:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index:100;
+
+}
+
+  main{
+    
+    animation-name: un_efecto;
+    animation-iteration-count: 1;
+   animation-duration: 1s;
+   
+
+
+  }
+  @keyframes un_efecto {
+    0%{opacity: 25%;}
+    25%{opacity: 50%;}
+     75%{opacity:75%;}
+    100%{opacity: 100%;}
+  }
+ 

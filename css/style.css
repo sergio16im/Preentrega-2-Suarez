@@ -1,15 +1,12 @@
 
-/* Estilos para header */
 body{
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
 }
-.logo{
-    position: absolute;
-  width: 20px;
-  fill: rgb(0, 81, 255);
-}
+/* Estilos para header */
+
+
 header{
    
     background-color: #00412b;
@@ -75,13 +72,9 @@ z-index:100;
 
   main{
     
-    animation-name: un_efecto;
-    animation-iteration-count: 1;
-   animation-duration: 1s;
-   
-
-
-  }
+animation-name: un_efecto;
+animation-iteration-count: 1;
+animation-duration: 1s;  }
   @keyframes un_efecto {
     0%{opacity: 25%;}
     25%{opacity: 50%;}
